@@ -1,0 +1,31 @@
+.data:
+three NUM 3
+five NUM 5
+res NUM 0
+curr NUM 0
+zero NUM 0
+right_bound NUM 1000
+.text:
+start:
+ld [curr]
+inc
+wr curr
+cmp right_bound
+je exit
+mod three
+cmp zero
+je sum
+ld [curr]
+mod five
+cmp zero
+je sum
+jmp start
+sum:
+ld [res]
+add curr
+wr res
+jmp start
+exit:
+ld [res]
+out
+hlt

@@ -1,0 +1,79 @@
+[
+    "H",
+    "e",
+    "l",
+    "l",
+    "o",
+    " ",
+    "w",
+    "o",
+    "r",
+    "l",
+    "d",
+    "!",
+    "\u0000",
+    0,
+    "\u0000",
+    {
+        "opcode": "LD_ABS",
+        "args": [
+            0
+        ]
+    },
+    {
+        "opcode": "WR",
+        "args": [
+            13
+        ]
+    },
+    {
+        "opcode": "LD_REL",
+        "args": [
+            "AC"
+        ]
+    },
+    {
+        "opcode": "CMP",
+        "args": [
+            14
+        ]
+    },
+    {
+        "opcode": "JE",
+        "args": [
+            25
+        ]
+    },
+    {
+        "opcode": "WR",
+        "args": [
+            -1
+        ]
+    },
+    {
+        "opcode": "LD_REL",
+        "args": [
+            13
+        ]
+    },
+    {
+        "opcode": "INC",
+        "args": []
+    },
+    {
+        "opcode": "WR",
+        "args": [
+            13
+        ]
+    },
+    {
+        "opcode": "JMP",
+        "args": [
+            17
+        ]
+    },
+    {
+        "opcode": "HLT",
+        "args": []
+    }
+]

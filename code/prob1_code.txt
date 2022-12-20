@@ -1,0 +1,124 @@
+[
+    3,
+    5,
+    0,
+    0,
+    0,
+    1000,
+    {
+        "opcode": "LD_REL",
+        "args": [
+            3
+        ]
+    },
+    {
+        "opcode": "INC",
+        "args": []
+    },
+    {
+        "opcode": "WR",
+        "args": [
+            3
+        ]
+    },
+    {
+        "opcode": "CMP",
+        "args": [
+            5
+        ]
+    },
+    {
+        "opcode": "JE",
+        "args": [
+            23
+        ]
+    },
+    {
+        "opcode": "MOD",
+        "args": [
+            0
+        ]
+    },
+    {
+        "opcode": "CMP",
+        "args": [
+            4
+        ]
+    },
+    {
+        "opcode": "JE",
+        "args": [
+            19
+        ]
+    },
+    {
+        "opcode": "LD_REL",
+        "args": [
+            3
+        ]
+    },
+    {
+        "opcode": "MOD",
+        "args": [
+            1
+        ]
+    },
+    {
+        "opcode": "CMP",
+        "args": [
+            4
+        ]
+    },
+    {
+        "opcode": "JE",
+        "args": [
+            19
+        ]
+    },
+    {
+        "opcode": "JMP",
+        "args": [
+            6
+        ]
+    },
+    {
+        "opcode": "LD_REL",
+        "args": [
+            2
+        ]
+    },
+    {
+        "opcode": "ADD",
+        "args": [
+            3
+        ]
+    },
+    {
+        "opcode": "WR",
+        "args": [
+            2
+        ]
+    },
+    {
+        "opcode": "JMP",
+        "args": [
+            6
+        ]
+    },
+    {
+        "opcode": "LD_REL",
+        "args": [
+            2
+        ]
+    },
+    {
+        "opcode": "WR",
+        "args": [
+            -1
+        ]
+    },
+    {
+        "opcode": "HLT",
+        "args": []
+    }
+]

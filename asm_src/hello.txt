@@ -1,0 +1,18 @@
+.data:
+hw string "Hello world!"
+addr num 0
+ch char 0
+.text:
+ld hw
+wr addr
+loop:
+ld [ac]
+cmp ch
+je end
+out
+ld [addr]
+inc
+wr addr
+jmp loop
+end:
+hlt

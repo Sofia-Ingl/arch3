@@ -1,0 +1,37 @@
+[
+    0,
+    {
+        "opcode": "LD_REL",
+        "args": [
+            -1
+        ]
+    },
+    {
+        "opcode": "CMP",
+        "args": [
+            0
+        ]
+    },
+    {
+        "opcode": "JE",
+        "args": [
+            6
+        ]
+    },
+    {
+        "opcode": "WR",
+        "args": [
+            -1
+        ]
+    },
+    {
+        "opcode": "JMP",
+        "args": [
+            1
+        ]
+    },
+    {
+        "opcode": "HLT",
+        "args": []
+    }
+]

@@ -1,0 +1,11 @@
+.data:
+zero NUM 0
+.text:
+loop:
+in
+cmp zero
+je end
+out
+jmp loop
+end:
+hlt
